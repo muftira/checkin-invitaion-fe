@@ -19,16 +19,16 @@ function Login() {
           <p className="text-sm mb-1 mt-4">Username</p>
           <input
             className="ring-2 ring-neutral-400 rounded-md px-1 py-1 sm:w-[350px] w-[250px] text-sm"
-            type="email"
+            type="text"
             onChange=''
-            // required
+            required
           />
           <p className="text-sm mb-1 mt-4 ">Password</p>
           <input
             className="ring-2 ring-neutral-400 rounded-md px-1 py-1 sm:w-[350px] w-[250px] text-sm"
             type="password"
             onChange=''
-            // required
+            required
           />
           <button onClick={(e) => getLogin(e)} className="sm:w-[350px] w-[250px] h-9 bg-bege rounded-md mt-6 text-sm text-white shadow-black/40 shadow-lg">
             Log in
