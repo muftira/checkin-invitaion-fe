@@ -16,7 +16,7 @@ function Login() {
           CHECK-IN TAMU UNDANGAN
         </p>
         <form className='flex flex-col items-start'>
-          <p className="text-sm mb-1 mt-4">Email</p>
+          <p className="text-sm mb-1 mt-4">Username</p>
           <input
             className="ring-2 ring-neutral-400 rounded-md px-1 py-1 sm:w-[350px] w-[250px] text-sm"
             type="email"
